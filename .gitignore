@@ -1,5 +1,26 @@
-.Rproj.user
+# --- RStudio / R session files ---
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+
+# --- Raw and processed data (not tracked) ---
 data/raw/*
+data/processed/*
+
+# --- Model outputs, figures, rasters ---
+output/*
+figures/*
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+
+# --- Credentials file ---
+credentials_microclimdata.rds
+
+# --- Keep folder structure ---
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!output/.gitkeep
+!figures/.gitkeep
