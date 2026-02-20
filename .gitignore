@@ -19,6 +19,9 @@ figures/*
 # --- Credentials file ---
 credentials_microclimdata.rds
 
+# --- macOS system files ---
+*.DS_Store
+
 # --- Keep folder structure ---
 !data/raw/.gitkeep
 !data/processed/.gitkeep

@@ -1,15 +1,5 @@
 # interactive single-site test
-
-source("config/paths.R")
-source("config/sites.R")
-
-source("download/get_lai.R")
-source("download/get_landcover.R")
-source("download/get_albedo.R")
-source("download/get_refldata.R")
-source("download/get_vegparameters.R")
-source("download/download_era5.R")
-source("download/canopy_height.R")
+### --- load needed packages --- ####
 
 library(terra)
 library(rgee)
@@ -17,16 +7,45 @@ library(microclimdata)
 library(mcera5)
 library(micropoint)
 
-ee_Initialize(user = "lizethestevezt", project = "ee-lizethestevezt")
+### --- credentials --- ####
 
-sites <- load_sites("data/sites.csv")
-site  <- sites[["ECU_01"]]
+credentials <- readRDS("~/microniche/credentials_microclimdata.rds")
 
-r   <- site$SpatRaster
-tme <- site$tme
+### --- Add subscripts with process' functions --- ####
+source("scripts/config/paths.R")
+source("scripts/config/sites.R")
+
+source("scripts/get_data/get_lai.R")
+source("scripts/get_data/get_landcover.R")
+source("scripts/get_data/get_albedo.R")
+source("scripts/get_data/get_refldata.R")
+source("scripts/get_data/get_vegparameters.R")
+source("scripts/get_data/download_era5.R")
+source("scripts/get_data/canopy_height.R")
+source("scripts/csv_processing.R")
+
+### --- initialize Earth Engine --- ####
+reticulate::use_python("/Users/lizethestevezt/.virtualenvs/rgee/bin/python", required = TRUE)
+ee$Authenticate(auth_mode='notebook')
+ee$Initialize(project='ee-lizethestevezt')
+
+### --- Attach sites csv file for coordinates --- ####
+
+observations <- process_csv(csv_path = "data/EpiphytesDatabase2.csv")
+sites <- get_sites(csv_path = "data/EpiphytesDatabase2.csv")
+site <- observations[1, ]
+
+### --- Beginning of process --- ####
+
+r_df <- data.frame( x = observations$lon, y = observations$lat, value = observations$hCanopy)
+r_vect <- vect(r_df, geom = c("x", "y"), crs = "EPSG:4326")
+template_raster <- rast(xmin = -180, xmax = 180, ymin = -90, ymax = 90, res = 1, crs = "EPSG:4326")
+r <- rasterize(x = r_vect, y = template_raster, field = "value", fun = mean, na.rm = TRUE)
+
+tme <- as.POSIXlt(seq(from = site$tme_start, to = site$tme_end, by = "1 day"), tz = "UTC")
 
 # 1. era5 -> climdata
-clim <- build_era5(site = site, paths = paths)
+clim_path <- build_era5(site = sites[1, ])
 
 # 2. landocver
 landcover <- get_landcover(site, out_dir = ESA_DIR, type = "ESA")
@@ -56,3 +75,5 @@ reqhgt <- get_canopy_height(site, CAN_TILE_DIR)
 mout <- runpointmodel(climdata = climdata, reqhgt = reqhgt, vegp = vegparameters,
                       paii = NA, groundp = groundparameters, lat = site$lat0, 
                       long = site$lon0, zref = 2, uref = 2)
+
+ee_extract()
