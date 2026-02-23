@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="ng-csp" data-placeholder-focus="false" lang="en" data-locale="en" translate="no" >
+	<head
+ data-requesttoken="P+jBlCZZUq4pDmvdUzGP6KMqucN0z0SmXOpc7hlaVy4=:Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=">
+		<meta charset="utf-8">
+		<title>
+			libdrive		</title>
+		<meta name="csp-nonce" nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+				<meta name="apple-itunes-app" content="app-id=1125420102">
+				<meta name="theme-color" content="#A8322D">
+		<link rel="icon" href="/index.php/apps/theming/favicon?v=e40432db">
+		<link rel="apple-touch-icon" href="/index.php/apps/theming/icon?v=e40432db">
+		<link rel="mask-icon" sizes="any" href="/core/img/favicon-mask.svg" color="#A8322D">
+		<link rel="manifest" href="/index.php/apps/theming/manifest?v=e40432db" crossorigin="use-credentials">
+		<link rel="stylesheet" href="/core/css/server.css?v=6157c98b-9">
+<link rel="stylesheet" href="/apps/theming/css/default.css?v=a53a30dd-9">
+<link rel="stylesheet" href="/core/css/guest.css?v=6157c98b-9">
+		<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/dist/core-common.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/dist/core-main.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/dist/core-files_fileinfo.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/dist/core-files_client.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/index.php/js/core/merged-template-prepend.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/apps/theming/js/theming.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=" defer src="/dist/files_sharing-main.js?v=6157c98b-9"></script>
+<script nonce="Co338W0RNNZgZRuSIVvcrsJb3ag4iXfCCZkx3HYqE0U=">
+var _oc_debug=false;
+var _oc_isadmin=false;
+var backendAllowsPasswordConfirmation=true;
+var oc_dataURL=false;
+var _oc_webroot="";
+var _oc_appswebroots={"activity":"/apps/activity","checksum":"/apps/checksum","cloud_federation_api":"/apps/cloud_federation_api","dav":"/apps/dav","federatedfilesharing":"/apps/federatedfilesharing","federation":"/apps/federation","files":"/apps/files","files_sharing":"/apps/files_sharing","files_trashbin":"/apps/files_trashbin","files_versions":"/apps/files_versions","guests":"/apps/guests","lookup_server_connector":"/apps/lookup_server_connector","oauth2":"/apps/oauth2","provisioning_api":"/apps/provisioning_api","settings":"/apps/settings","sharebymail":"/apps/sharebymail","support":"/apps/support","text":"/apps/text","theming":"/apps/theming","theming_customcss":"/apps/theming_customcss","twofactor_backupcodes":"/apps/twofactor_backupcodes","viewer":"/apps/viewer","workflowengine":"/apps/workflowengine"};
+var datepickerFormatDate="M\/d\/yy";
+var nc_lastLogin=0;
+var nc_pageLoad=1770043558;
+var dayNames=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var dayNamesShort=["Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."];
+var dayNamesMin=["Su","Mo","Tu","We","Th","Fr","Sa"];
+var monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"];
+var monthNamesShort=["Jan.","Feb.","Mar.","Apr.","May.","Jun.","Jul.","Aug.","Sep.","Oct.","Nov.","Dec."];
+var firstDay=0;
+var _oc_config={"blacklist_files_regex":"\\.(part|filepart)$","forbidden_filename_characters":["\\","\/"],"auto_logout":false,"loglevel":"2","lost_password_link":null,"modRewriteWorking":false,"no_unsupported_browser_warning":false,"session_keepalive":true,"session_lifetime":1440,"sharing.maxAutocompleteResults":25,"sharing.minSearchStringLength":0,"version":"30.0.6.3","versionstring":"30.0.6 Enterprise","enable_non-accessible_features":true};
+var oc_appconfig={"core":{"defaultExpireDateEnabled":false,"defaultExpireDate":null,"defaultExpireDateEnforced":null,"enforcePasswordForPublicLink":false,"enableLinkPasswordByDefault":false,"sharingDisabledForUser":false,"resharingAllowed":true,"remoteShareAllowed":true,"federatedCloudShareDoc":"https:\/\/docs.nextcloud.com\/server\/30\/go.php?to=user-sharing-federated","allowGroupSharing":true,"defaultInternalExpireDateEnabled":false,"defaultInternalExpireDate":null,"defaultInternalExpireDateEnforced":null,"defaultRemoteExpireDateEnabled":false,"defaultRemoteExpireDate":null,"defaultRemoteExpireDateEnforced":null},"files":{"max_chunk_size":10485760}};
+var _theme={"entity":"libdrive","name":"libdrive","productName":"Nextcloud","title":"libdrive","baseUrl":"https:\/\/libdrive.ethz.ch","syncClientUrl":"https:\/\/nextcloud.com\/install\/#install-clients","docBaseUrl":"https:\/\/docs.nextcloud.com","docPlaceholderUrl":"https:\/\/docs.nextcloud.com\/server\/30\/go.php?to=PLACEHOLDER","slogan":"","logoClaim":"","folder":""};
+
+</script>
+		<link rel="stylesheet" media="" href="/index.php/apps/theming/theme/default.css?plain=1&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="(prefers-color-scheme: light)" href="/index.php/apps/theming/theme/light.css?plain=1&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="(prefers-color-scheme: dark)" href="/index.php/apps/theming/theme/dark.css?plain=1&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="(prefers-contrast: more)" href="/index.php/apps/theming/theme/light-highcontrast.css?plain=1&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="(prefers-color-scheme: dark) and (prefers-contrast: more)" href="/index.php/apps/theming/theme/dark-highcontrast.css?plain=1&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="" href="/index.php/apps/theming/theme/light.css?plain=0&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="" href="/index.php/apps/theming/theme/dark.css?plain=0&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="" href="/index.php/apps/theming/theme/light-highcontrast.css?plain=0&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="" href="/index.php/apps/theming/theme/dark-highcontrast.css?plain=0&amp;v=e40432db" class="theme"/><link rel="stylesheet" media="" href="/index.php/apps/theming/theme/opendyslexic.css?plain=0&amp;v=e40432db" class="theme"/><meta name="color-scheme" content="light dark"/><link rel="stylesheet" href="/index.php/apps/theming_customcss/styles?v=1742895773509"/>	</head>
+	<body id="body-login">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			This application requires JavaScript for correct operation. Please <a href="https://www.enable-javascript.com/" target="_blank" rel="noreferrer noopener">enable JavaScript</a> and reload the page.		</div>
+	</div>
+</noscript>
+		<div id="initial-state-container" style="display: none;">
+			<input type="hidden" id="initial-state-core-projects_enabled" value="ZmFsc2U=">
+			<input type="hidden" id="initial-state-core-config" value="eyJibGFja2xpc3RfZmlsZXNfcmVnZXgiOiJcXC4ocGFydHxmaWxlcGFydCkkIiwiZm9yYmlkZGVuX2ZpbGVuYW1lX2NoYXJhY3RlcnMiOlsiXFwiLCJcLyJdLCJhdXRvX2xvZ291dCI6ZmFsc2UsImxvZ2xldmVsIjoiMiIsImxvc3RfcGFzc3dvcmRfbGluayI6bnVsbCwibW9kUmV3cml0ZVdvcmtpbmciOmZhbHNlLCJub191bnN1cHBvcnRlZF9icm93c2VyX3dhcm5pbmciOmZhbHNlLCJzZXNzaW9uX2tlZXBhbGl2ZSI6dHJ1ZSwic2Vzc2lvbl9saWZldGltZSI6MTQ0MCwic2hhcmluZy5tYXhBdXRvY29tcGxldGVSZXN1bHRzIjoyNSwic2hhcmluZy5taW5TZWFyY2hTdHJpbmdMZW5ndGgiOjAsInZlcnNpb24iOiIzMC4wLjYuMyIsInZlcnNpb25zdHJpbmciOiIzMC4wLjYgRW50ZXJwcmlzZSIsImVuYWJsZV9ub24tYWNjZXNzaWJsZV9mZWF0dXJlcyI6dHJ1ZX0=">
+			<input type="hidden" id="initial-state-core-capabilities" value="eyJjb3JlIjp7InBvbGxpbnRlcnZhbCI6NjAsIndlYmRhdi1yb290IjoicmVtb3RlLnBocFwvd2ViZGF2IiwicmVmZXJlbmNlLWFwaSI6dHJ1ZSwicmVmZXJlbmNlLXJlZ2V4IjoiKFxcc3xcXG58XikoaHR0cHM/OlxcXC9cXFwvKShbLUEtWjAtOStfLl0rKD86OlswLTldKyk/KD86XFxcL1stQS1aMC05KyZAIyU/PX5ffCE6LC47KCldKikqKShcXHN8XFxufCQpIiwibW9kLXJld3JpdGUtd29ya2luZyI6ZmFsc2V9LCJmaWxlcyI6eyIkY29tbWVudCI6IlwiYmxhY2tsaXN0ZWRfZmlsZXNcIiBpcyBkZXByZWNhdGVkIGFzIG9mIE5leHRjbG91ZCAzMCwgdXNlIFwiZm9yYmlkZGVuX2ZpbGVuYW1lc1wiIGluc3RlYWQiLCJibGFja2xpc3RlZF9maWxlcyI6WyIuaHRhY2Nlc3MiXSwiZm9yYmlkZGVuX2ZpbGVuYW1lcyI6WyIuaHRhY2Nlc3MiXSwiZm9yYmlkZGVuX2ZpbGVuYW1lX2Jhc2VuYW1lcyI6W10sImZvcmJpZGRlbl9maWxlbmFtZV9jaGFyYWN0ZXJzIjpbIlxcIiwiXC8iXSwiZm9yYmlkZGVuX2ZpbGVuYW1lX2V4dGVuc2lvbnMiOlsiLmZpbGVwYXJ0IiwiLnBhcnQiXSwiYmlnZmlsZWNodW5raW5nIjp0cnVlLCJ1bmRlbGV0ZSI6dHJ1ZSwidmVyc2lvbmluZyI6dHJ1ZSwidmVyc2lvbl9sYWJlbGluZyI6dHJ1ZSwidmVyc2lvbl9kZWxldGlvbiI6dHJ1ZX0sImFjdGl2aXR5Ijp7ImFwaXYyIjpbImZpbHRlcnMiLCJmaWx0ZXJzLWFwaSIsInByZXZpZXdzIiwicmljaC1zdHJpbmdzIl19LCJvY20iOnsiZW5hYmxlZCI6dHJ1ZSwiYXBpVmVyc2lvbiI6IjEuMC1wcm9wb3NhbDEiLCJlbmRQb2ludCI6Imh0dHBzOlwvXC9saWJkcml2ZS5ldGh6LmNoXC9pbmRleC5waHBcL29jbSIsInJlc291cmNlVHlwZXMiOlt7Im5hbWUiOiJmaWxlIiwic2hhcmVUeXBlcyI6WyJ1c2VyIiwiZ3JvdXAiXSwicHJvdG9jb2xzIjp7IndlYmRhdiI6IlwvcHVibGljLnBocFwvd2ViZGF2XC8ifX1dfSwiZGF2Ijp7ImNodW5raW5nIjoiMS4wIiwiYnVsa3VwbG9hZCI6IjEuMCIsImFic2VuY2Utc3VwcG9ydGVkIjp0cnVlLCJhYnNlbmNlLXJlcGxhY2VtZW50Ijp0cnVlfSwiZmlsZXNfc2hhcmluZyI6eyJhcGlfZW5hYmxlZCI6dHJ1ZSwicHVibGljIjp7ImVuYWJsZWQiOnRydWUsInBhc3N3b3JkIjp7ImVuZm9yY2VkIjpmYWxzZSwiYXNrRm9yT3B0aW9uYWxQYXNzd29yZCI6ZmFsc2V9LCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjpmYWxzZX0sIm11bHRpcGxlX2xpbmtzIjp0cnVlLCJleHBpcmVfZGF0ZV9pbnRlcm5hbCI6eyJlbmFibGVkIjpmYWxzZX0sImV4cGlyZV9kYXRlX3JlbW90ZSI6eyJlbmFibGVkIjpmYWxzZX0sInNlbmRfbWFpbCI6ZmFsc2UsInVwbG9hZCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnRydWV9LCJyZXNoYXJpbmciOnRydWUsInVzZXIiOnsic2VuZF9tYWlsIjpmYWxzZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX19LCJncm91cF9zaGFyaW5nIjp0cnVlLCJncm91cCI6eyJlbmFibGVkIjp0cnVlLCJleHBpcmVfZGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImRlZmF1bHRfcGVybWlzc2lvbnMiOjMxLCJmZWRlcmF0aW9uIjp7Im91dGdvaW5nIjp0cnVlLCJpbmNvbWluZyI6dHJ1ZSwiZXhwaXJlX2RhdGUiOnsiZW5hYmxlZCI6dHJ1ZX0sImV4cGlyZV9kYXRlX3N1cHBvcnRlZCI6eyJlbmFibGVkIjp0cnVlfX0sInNoYXJlZSI6eyJxdWVyeV9sb29rdXBfZGVmYXVsdCI6ZmFsc2UsImFsd2F5c19zaG93X3VuaXF1ZSI6dHJ1ZX0sInNoYXJlYnltYWlsIjp7ImVuYWJsZWQiOnRydWUsInNlbmRfcGFzc3dvcmRfYnlfbWFpbCI6dHJ1ZSwidXBsb2FkX2ZpbGVzX2Ryb3AiOnsiZW5hYmxlZCI6dHJ1ZX0sInBhc3N3b3JkIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX0sImV4cGlyZV9kYXRlIjp7ImVuYWJsZWQiOnRydWUsImVuZm9yY2VkIjpmYWxzZX19fSwiZ3Vlc3RzIjp7ImVuYWJsZWQiOnRydWV9LCJwcm92aXNpb25pbmdfYXBpIjp7InZlcnNpb24iOiIxLjIwLjAiLCJBY2NvdW50UHJvcGVydHlTY29wZXNWZXJzaW9uIjoyLCJBY2NvdW50UHJvcGVydHlTY29wZXNGZWRlcmF0ZWRFbmFibGVkIjp0cnVlLCJBY2NvdW50UHJvcGVydHlTY29wZXNQdWJsaXNoZWRFbmFibGVkIjp0cnVlfSwic3VwcG9ydCI6eyJoYXNWYWxpZFN1YnNjcmlwdGlvbiI6dHJ1ZSwiZGVza3RvcEVudGVycHJpc2VDaGFubmVsIjoic3RhYmxlIn0sInRoZW1pbmciOnsibmFtZSI6ImxpYmRyaXZlIiwidXJsIjoiaHR0cHM6XC9cL2xpYmRyaXZlLmV0aHouY2giLCJzbG9nYW4iOiIiLCJjb2xvciI6IiNBODMyMkQiLCJjb2xvci10ZXh0IjoiI2ZmZmZmZiIsImNvbG9yLWVsZW1lbnQiOiIjQTgzMjJEIiwiY29sb3ItZWxlbWVudC1icmlnaHQiOiIjQTgzMjJEIiwiY29sb3ItZWxlbWVudC1kYXJrIjoiI0E4MzIyRCIsImxvZ28iOiJodHRwczpcL1wvbGliZHJpdmUuZXRoei5jaFwvaW5kZXgucGhwXC9hcHBzXC90aGVtaW5nXC9pbWFnZVwvbG9nbz91c2VTdmc9MSZ2PTkiLCJiYWNrZ3JvdW5kIjoiI0E4MzIyRCIsImJhY2tncm91bmQtdGV4dCI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kLXBsYWluIjp0cnVlLCJiYWNrZ3JvdW5kLWRlZmF1bHQiOnRydWUsImxvZ29oZWFkZXIiOiJodHRwczpcL1wvbGliZHJpdmUuZXRoei5jaFwvaW5kZXgucGhwXC9hcHBzXC90aGVtaW5nXC9pbWFnZVwvbG9nbz91c2VTdmc9MSZ2PTkiLCJmYXZpY29uIjoiaHR0cHM6XC9cL2xpYmRyaXZlLmV0aHouY2hcL2luZGV4LnBocFwvYXBwc1wvdGhlbWluZ1wvaW1hZ2VcL2xvZ28/dXNlU3ZnPTEmdj05In19">
+			<input type="hidden" id="initial-state-core-versionHash" value="IjYxNTdjOThiIg==">
+			<input type="hidden" id="initial-state-theming-data" value="eyJuYW1lIjoibGliZHJpdmUiLCJzbG9nYW4iOiIiLCJ1cmwiOiJodHRwczpcL1wvbGliZHJpdmUuZXRoei5jaCIsImltcHJpbnRVcmwiOiJodHRwczpcL1wvZXRoei5jaFwvc3RhZmZuZXRcL2VuXC9maW5hbmNlLWFuZC1jb250cm9sbGluZ1wvY29tcGxpYW5jZVwvcmVjaHRzc2FtbWx1bmcuaHRtbCIsInByaXZhY3lVcmwiOiJodHRwczpcL1wvZXRoei5jaFwvZW5cL2Zvb3RlclwvZGF0YS1wcm90ZWN0aW9uLmh0bWwiLCJwcmltYXJ5Q29sb3IiOiIjQTgzMjJEIiwiYmFja2dyb3VuZENvbG9yIjoiI0E4MzIyRCIsImRlZmF1bHRQcmltYXJ5Q29sb3IiOiIjQTgzMjJEIiwiZGVmYXVsdEJhY2tncm91bmRDb2xvciI6IiNBODMyMkQiLCJpbnZlcnRlZCI6ZmFsc2UsImNhY2hlQnVzdGVyIjoiZTQwNDMyZGIiLCJlbmFibGVkVGhlbWVzIjpbXSwiY29sb3IiOiIjQTgzMjJEIiwiIjoiY29sb3IgaXMgZGVwcmVjYXRlZCBzaW5jZSBOZXh0Y2xvdWQgMjksIHVzZSBwcmltYXJ5Q29sb3IgaW5zdGVhZCJ9">
+	</div>
+		<div class="wrapper">
+			<div class="v-align">
+									<header>
+						<div id="header">
+							<div class="logo"></div>
+						</div>
+					</header>
+								<main>
+					<h1 class="hidden-visually">
+						libdrive					</h1>
+						<div class="body-login-container update">
+		<div class="icon-big icon-search"></div>
+		<h2>Page not found</h2>
+		<p class="infogroup">The page could not be found on the server or you may not be allowed to view it.</p>
+		<p><a class="button primary" href="/index.php">
+			Back to libdrive		</a></p>
+	</div>
+				</main>
+			</div>
+		</div>
+				<footer class="guest-box ">
+			<p class="info">
+				<a href="https://libdrive.ethz.ch" target="_blank" rel="noreferrer noopener" class="entity-name">libdrive</a><br/><span class="footer__legal-links"><a href="https://ethz.ch/staffnet/en/finance-and-controlling/compliance/rechtssammlung.html" class="legal" target="_blank" rel="noreferrer noopener">Legal notice</a> · <a href="https://ethz.ch/en/footer/data-protection.html" class="legal" target="_blank" rel="noreferrer noopener">Privacy policy</a></span>			</p>
+		</footer>
+	</body>
+</html>

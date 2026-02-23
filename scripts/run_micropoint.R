@@ -11,6 +11,9 @@ library(micropoint)
 
 credentials <- readRDS("~/microniche/credentials_microclimdata.rds")
 
+### --- force python path --- ####
+reticulate::use_python("/Users/lizethestevezt/.virtualenvs/rgee/bin/python", required = TRUE)
+
 ### --- Add subscripts with process' functions --- ####
 source("scripts/config/paths.R")
 source("scripts/config/sites.R")
@@ -25,7 +28,7 @@ source("scripts/get_data/canopy_height.R")
 source("scripts/csv_processing.R")
 
 ### --- initialize Earth Engine --- ####
-reticulate::use_python("/Users/lizethestevezt/.virtualenvs/rgee/bin/python", required = TRUE)
+
 ee$Authenticate(auth_mode='notebook')
 ee$Initialize(project='ee-lizethestevezt')
 
@@ -36,7 +39,7 @@ sites <- get_sites(csv_path = "data/EpiphytesDatabase2.csv")
 site <- observations[1, ]
 
 ### --- Beginning of process --- ####
-
+s
 r_df <- data.frame( x = observations$lon, y = observations$lat, value = observations$hCanopy)
 r_vect <- vect(r_df, geom = c("x", "y"), crs = "EPSG:4326")
 template_raster <- rast(xmin = -180, xmax = 180, ymin = -90, ymax = 90, res = 1, crs = "EPSG:4326")
@@ -47,7 +50,7 @@ tme <- as.POSIXlt(seq(from = site$tme_start, to = site$tme_end, by = "1 day"), t
 # 1. era5 -> climdata
 clim_path <- build_era5(site = sites[1, ])
 
-# 2. landocver
+©# 2. landocver
 landcover <- get_landcover(site, out_dir = ESA_DIR, type = "ESA")
 
 # 3. veg height -> vhgt (this one inside vegparams)

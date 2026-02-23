@@ -16,7 +16,7 @@ build_era5 <- function(site, overwrite = FALSE) {
                             start_time = site$tme_start, end_time = site$tme_end,
                             by_month = TRUE, outfile_name = outfile_base)
   
-  request_era5(request = req, uid = credentials[3, 2], out_path = nc_file)
+  request_era5(request = req, uid = credentials[3, 2], out_path = ERA5_DIR, overwrite = overwrite)
   
   return(nc_file)
 }
