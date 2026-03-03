@@ -4,9 +4,11 @@ library(dplyr)
 library(elevatr)
 library(sf)
 library(parzer)
+library(rgee)
+library(terra)
 
 source("scripts/get_data/canopy_height.R")
-source("scripts/config/paths.R")
+source("scripts/config_processing/paths.R")
 
 ### --- basic functions --- ####
 

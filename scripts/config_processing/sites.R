@@ -53,3 +53,21 @@ load_sites <- function(csv_path) {
   names(sites) <- sites_df$site_id
   sites
 }
+
+compress_site_window <- function(t_start, t_end) {
+  t_start <- as.POSIXct(t_start, tz = "UTC")
+  t_end   <- as.POSIXct(t_end,   tz = "UTC")
+  
+  y_start <- as.integer(format(t_start, "%Y"))
+  y_end   <- as.integer(format(t_end,   "%Y"))
+  
+  if (y_start == y_end) {
+    return(list(tme_start = t_start, tme_end = t_end))
+  }
+  
+  rep_year <- y_start + 1L
+  tme_start_new <- as.POSIXct(sprintf("%d-01-01 00:00:00", rep_year), tz = "UTC")
+  tme_end_new   <- as.POSIXct(sprintf("%d-12-31 23:59:59", rep_year), tz = "UTC")
+  
+  list(tme_start = tme_start_new, tme_end = tme_end_new)
+}

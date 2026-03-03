@@ -1,5 +1,5 @@
 # paths
-BASE_DIR <- "/Users/lizethestevezt/microniche"
+BASE_DIR <- "/Users/lizethestevezt/canopymicroenv"
 RAW_DIR <- file.path(BASE_DIR, "data/raw")
 LAI_DIR  <- file.path(RAW_DIR, "lai")
 ALB_DIR  <- file.path(RAW_DIR, "albedo")
